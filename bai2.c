@@ -14,7 +14,7 @@ int main() {
         printf("\n\tMENU\n");
         printf("\n1. Nhap vao chuoi\n2. In ra chuoi\n3. Dem so luong chu cai trong chuoi va in ra\n4. Dem so luong chu so trong chuoi va in ra\n5. Dem so luong ky tu dac biet trong chuoi va in ra\n6. Thoat\nLua chon cua ban: ");
         scanf("%d", &type);
-        getchar(); // Clear newline character from buffer
+        getchar(); 
         switch (type) {
         case 1:
             inputString(str);
